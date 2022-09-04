@@ -20,10 +20,10 @@ pipeline {
         }
     }
     post {
-        always {
-            mail to: 'atlyrist@gmail.com',
-            subject: "Completed Pipeline ${currentBuild.fullDisplayName}",
-            body: "Build completed for ${env.BUILD_URL}"
-        }
+        // always {
+        //     mail to: 'atlyrist@gmail.com',
+        //     subject: "Completed Pipeline ${currentBuild.fullDisplayName}",
+        //     body: "Build completed for ${env.BUILD_URL}"
+        // }
     }
 }
