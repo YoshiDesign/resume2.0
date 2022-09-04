@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage("First Stage") {
             steps {
-                echo "Hello! From first stage."
+                echo "Hello from first stage!"
             }
         }
 
         stage("Compile") {
             steps {
-                echo "Hello! From compile stage."
+                echo "Hello from compile stage!"
             }
         }
 
         stage("Test") {
             steps {
-                echo "Hello! From test stage!"
+                echo "Hello from test stage!"
             }
         }
     }
