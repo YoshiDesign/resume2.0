@@ -7,9 +7,9 @@ pipeline {
             }
         }
 
-        stage("Compile") {
+        stage("Docker Build") {
             steps {
-                echo "Hello from compile stage!"
+                bash "docker build -t python-resume"
             }
         }
 
