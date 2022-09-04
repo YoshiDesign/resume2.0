@@ -19,11 +19,11 @@ pipeline {
             }
         }
     }
-    post {
+    // post {
         // always {
         //     mail to: 'atlyrist@gmail.com',
         //     subject: "Completed Pipeline ${currentBuild.fullDisplayName}",
         //     body: "Build completed for ${env.BUILD_URL}"
         // }
-    }
+    // }
 }
