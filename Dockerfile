@@ -3,4 +3,4 @@ RUN python -m pip install Django
 RUN mkdir -p /home/resume
 WORKDIR /home/resume
 COPY ./resume3 /home/resume
-RUN python manage.py runserver
+CMD ["python","manage.py runserver"]
